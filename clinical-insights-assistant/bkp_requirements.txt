@@ -1,0 +1,24 @@
+# --- GenAI core ---
+langchain>=0.3.7,<0.4
+langchain-openai>=0.2.6,<0.3
+langgraph>=0.2.60,<0.3
+langsmith>=0.1.120,<0.2
+# (no explicit langchain-text-splitters pin)
+
+# --- Pydantic v2 line ---
+pydantic>=2.8,<3
+pydantic-core>=2.23,<3
+typing-extensions>=4.12
+annotated-types>=0.7
+
+# --- Models & utilities ---
+openai>=1.43,<2
+tiktoken>=0.7
+
+# --- Data / app ---
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+python-dotenv>=1.0
+streamlit>=1.37
+pyarrow>=16.1
