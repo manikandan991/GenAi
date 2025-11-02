@@ -1,5 +1,5 @@
 # Databricks notebook source
-# %pip install -r /Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant/requirements.txt
+# %pip install -r /Workspace/Users/manikandan_nagarasan/clinical-insights-assistant/requirements.txt
 # dbutils.library.restartPython()
 
 # COMMAND ----------
@@ -9,12 +9,12 @@
 # COMMAND ----------
 
 from dotenv import load_dotenv
-load_dotenv("/Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant/.env")
+load_dotenv("/Workspace/Users/manikandan_nagarasan/clinical-insights-assistant/.env")
 
 
 # COMMAND ----------
 
-# %run /Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant/data/generate_synth_data
+# %run /Workspace/Users/manikandan_nagarasan/clinical-insights-assistant/data/generate_synth_data
 
 # COMMAND ----------
 
@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, Circle
 
 # ---------------- Defaults ----------------
-PROJECT_DIR = "/Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant"
+PROJECT_DIR = "/Workspace/Users/manikandan_nagarasan/clinical-insights-assistant"
 DEFAULT_DATA = f"{PROJECT_DIR}/data/clinical_trial_data.csv"
 os.environ.setdefault("DATA_PATH", DEFAULT_DATA)
 
