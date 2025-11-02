@@ -36,7 +36,7 @@ df = pd.DataFrame(records, columns=[
     'adverse_event_flag','doctor_notes','outcome_score','cohort','visit_date'
 ])
 
-out = Path("/Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant/data/clinical_trial_data.csv")
+out = Path("/Workspace/Users/manikandan_nagarasan/clinical-insights-assistant/data/clinical_trial_data.csv")
 out.parent.mkdir(parents=True, exist_ok=True)
 df.to_csv(out, index=False)
 print(f"Wrote {len(df):,} rows to {out}")
