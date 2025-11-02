@@ -1,4 +1,4 @@
-# /Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant/src/ui/streamlit_app.py
+# /Workspace/Users/manikandan_nagarasan/clinical-insights-assistant/src/ui/streamlit_app.py
 
 import os
 import pathlib
@@ -8,7 +8,7 @@ from src.data_loader import load_data
 from src.cohort_analysis import cohort_summary
 
 # --- Resolve a sensible default DATA_PATH on Databricks ---
-PROJECT_DIR = "/Workspace/Users/manikandan_nagarasan@epam.com/clinical-insights-assistant"
+PROJECT_DIR = "/Workspace/Users/manikandan_nagarasan/clinical-insights-assistant"
 DEFAULT_DATA = f"{PROJECT_DIR}/data/clinical_trial_data.csv"
 os.environ.setdefault("DATA_PATH", DEFAULT_DATA)
 
