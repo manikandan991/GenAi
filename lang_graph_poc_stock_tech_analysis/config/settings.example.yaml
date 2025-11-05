@@ -1,0 +1,11 @@
+paths:
+  base_dir: ./artifacts
+  kb_dir: ./src/rag/kb
+  chroma_dir: ./artifacts/chroma
+  charts_dir: ./artifacts/charts
+  reports_dir: ./artifacts/reports
+llm:
+  provider: gemini   # gemini | litellm
+  model: gemini-1.5-flash
+fallback:
+  model: ollama/llama3.1

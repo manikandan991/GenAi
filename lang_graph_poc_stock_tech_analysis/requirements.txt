@@ -1,0 +1,14 @@
+langgraph
+langchain
+langchain-community
+chromadb
+sentence-transformers
+yfinance
+pandas
+numpy
+ta
+matplotlib
+vaderSentiment
+ragas
+google-generativeai
+litellm
