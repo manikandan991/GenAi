@@ -53,4 +53,3 @@ rag.invoke("What are the key points in our policy doc?").content
 agent.invoke({"input":"Find fundamentally strong Indian IT largecaps and show PE/ROE"})["output"]
 ```
 
-> Screener.in HTML can change; use politely and review ToS/robots.txt.
