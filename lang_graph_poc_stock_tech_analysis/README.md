@@ -109,6 +109,7 @@ dbutils.notebook.exit(json.dumps(payload))
 Generated: 2025-11-05T20:15:02
 
 ![Chart](/Workspace/Shared/lang_graph_poc_stock_tech_analysis/artifacts/charts/^NSEI_20251105_201502.png)
+!(https://github.com/manikandan991/GenAi/blob/main/lang_graph_poc_stock_tech_analysis/artifacts/charts/%5ENSEI_20251105_195524.png)
 
 ---
 
