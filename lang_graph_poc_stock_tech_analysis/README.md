@@ -2,7 +2,7 @@
 
 This project provides an automated **technical analysis pipeline** on Databricks using:
 
-- ✅ Natural language questions (e.g., *“Check Infosys tech analysis”*)  
+- ✅ Natural language questions (e.g., *“Check <stock name> tech analysis”*)  
 - ✅ **OpenAI** to extract the correct stock ticker  
 - ✅ A **child notebook agent** (LangGraph + TA + sentiment + chart generation)  
 - ✅ A **caller notebook REPL** that loops, parses your queries, triggers the child, and displays the **latest report.md**
@@ -36,12 +36,12 @@ All generated reports are stored in:
 Example:
 
 ```
-Check Thangamayil for entry and stop
+Check index/eft/stock for technical analysis
 ```
 
 ### ✅ Step 2 — Caller Notebook
 - Reads your question  
-- Uses **OpenAI** to extract the best ticker (`THANGAMAYIL.NS`)  
+- Uses **OpenAI** to extract the best ticker (`NSE`)  
 - Calls the child notebook.
 
 ### ✅ Step 3 — Child Notebook
